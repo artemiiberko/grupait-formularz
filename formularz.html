@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularz.css">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <input type="text" id="tytul" placeholder="Tytuł">
+            <input type="text" id="autor" placeholder="Autor">
+            <input type="number" id="priorytet" placeholder="Priorytet (0-5)" min="0" max="5">
+            <input list="kategorie" id="kategoria" placeholder="Kategoria">
+            <datalist id="kategorie">
+                <option value="Fantasy">
+                <option value="Kryminał">
+                <option value="Romans">
+            </datalist>
+            <button>Dodaj</button>
+        </form>
+        <div id="library" class="library"></div>
+    </div>
+
+    <script src="formularz.js"></script>
+</body>
+
+</html>

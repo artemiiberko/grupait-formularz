@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+input {
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid tomato;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.library{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+}
+th{
+    color: tomato;
+    padding: 10px;
+    border-bottom: 2px solid tomato;
+}
+
+tr{
+    border: 2px solid tomato;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid tomato;
+}
+table{
+    width: 100%;
+}
